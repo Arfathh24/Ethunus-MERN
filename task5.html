@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .title {
+          font-weight: bold;
+        }
+  
+        .not-bold {
+          font-weight: normal;
+        }
+        .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        input[type = text] {
+            width: 100%;
+            padding: 10px 15px;
+            margin: 5px 0;
+            box-sizing: border-box;
+         }
+         input[type = email] {
+            width: 100%;
+            padding: 10px 15px;
+            margin: 5px 0;
+            box-sizing: border-box;
+         }
+         input[type = password] {
+            width: 100%;
+            padding: 10px 15px;
+            margin: 5px 0;
+            box-sizing: border-box;
+         }
+         input[type = number] {
+            width: 100%;
+            padding: 10px 15px;
+            margin: 5px 0;
+            box-sizing: border-box;
+         }
+      </style>
+</head>
+<body>
+    <form>
+        <table align="center" cellspacing="0" cellpadding="1" border="1" bordercolor="black">
+            <h1 align="center" style="color:blue;"><b>Registration Form</b></h1>
+            <tr>
+                <th width="30%">First Name</th>
+                <th width="70%"><input type="text"></th>
+            </tr>
+                <th width="30%">Last Name</th>
+                <th width="70%"><input type="text"></th>
+            </tr>
+            </tr>
+                <th width="30%">Email</th>
+                <th width="70%"><input type="email"></th>
+            </tr>
+            </tr>
+                <th width="30%">Password</th>
+                <th width="70%"><input type="password"></th>
+            </tr>
+            </tr>
+                <th width="30%">Re-enter Password</th>
+                <th width="70%"><input type="password"></th>
+            </tr>
+            </tr>
+                <th width="30%">Gender:</th>
+                <th width="70%" align="left"><input type="radio" id="gender1" name="gender1" value="30">
+                    <label for="gender1"><span class="not-bold">Male</span></label><br>
+                    <input type="radio" id="gender2" name="gender2" value="60">
+                    <label for="age2"><span class="not-bold">Female</span></label><br>  </th>
+            </tr>
+            <tr>
+                <th width="30%">Age:</th>
+                <th width="70%"><input type="number"></th>
+            </tr>
+            <tr>
+                <th width="30%">Phone</th>
+                <th width="70%"><input type="number"></th>
+            </tr>
+            <tr>
+                <th width="30%">Address</th>
+                <th width="70%"><textarea></textarea></th>
+            </tr>
+            <tr>
+                <th width="30%">State</th>
+                <th width="70%"><input type="text"></th>
+            </tr>
+            <tr>
+                <th width="30%">Country</th>
+                <th width="70%"><select name="country" id="country">
+                    <option value="choose">Choose your country</option>
+                    <option value="India">India</option>
+                    <option value="America">America</option></th>
+            </tr>
+            <tr>
+                <th width="30%">Languages known</th>
+                <th width="70%" align="left">
+                    <input type="checkbox"><span class="not-bold">English</span>
+                    <input type="checkbox"><span class="not-bold">Kannada</span>
+                    <input type="checkbox"><span class="not-bold">Hindi</span>
+                    <input type="checkbox"><span class="not-bold">Telugu</span> </th>
+            </tr>
+            <tr>
+                <th colspan="2" align="left">
+                    <input type="checkbox"><span class="not-bold">Hereby I declare all the given detail are true</span>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" align="right">
+                    <span class="not-bold">Log in to <a href="https://careers.ethnus.com/jobs/Careers">Ethunus</a> website</span>
+                </th>
+            </tr>
+        </table><br>
+        <div class="center">
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>
